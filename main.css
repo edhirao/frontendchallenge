@@ -1,0 +1,158 @@
+body {
+    background-color: #202020;
+    color: 3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#phone-screen {
+    background-color: #6100b6;
+    width: 375px;
+    height: 827px;
+    margin: auto;
+}
+
+h2,
+.cta,
+.nx-tx {
+    color: white;
+    font-weight: 400;
+}
+
+.cta,
+.nx-tx,
+.stop {
+    font-size: 15px;
+}
+
+.nx-tx {
+    margin-left: 12.5px;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+.single {
+    height: 59px;
+}
+
+.info {
+    margin-top: -12px;
+    font-size: 28px;
+    font-weight: 700;
+    display: inline-block;
+    width: 12%;
+    margin-left: 3%;
+}
+
+.sec-info {
+    font-weight: 600;
+    display: inline-block;
+    width: 51%;
+    margin-left: 5%;
+}
+
+.stop {
+    height: 1px;
+}
+
+.num-min {
+    /* display: inline-block; */
+    /* width: 26%; */
+    /* margin-right: 0; */
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 4%;
+}
+
+.blank {
+    color: white;
+}
+
+.red {
+    color: #D0021B;
+}
+
+.green {
+    color: #417505;
+}
+
+.single:nth-of-type(6) {
+    color: #d0021b;
+}
+
+.single:nth-of-type(n+7) {
+    color: #c0c0c0;
+}
+
+.number,
+.time {
+    display: inline;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.min,
+.day-period {
+    font-size: 12px;
+    font-weight: 400;
+    display: inline;
+}
+
+.direction {
+    font-size: 12px;
+    font-weight: 400; 
+}
+
+.dash {
+    margin-right: 5%;
+}
+
+.cta {
+    display: inline-block;
+}
+
+.bus-stop {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.next-card {
+    width: 350px;
+    height: 543px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.scheduled-card {
+    width: 350px;
+    height: 119px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+}
+
+#top {
+    margin-left: 12.5px;
+}
+
+/* ----------- Icon ------------*/
+
+.fa-chevron-left {
+    color: white;
+    margin-right: 4px;
+}
+
+.fa-rss {
+    margin-bottom: 15px;
+}
