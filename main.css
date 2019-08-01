@@ -13,6 +13,12 @@ hr {
     margin-bottom: 0;
 }
 
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
 #phone-screen {
     background-color: #6100b6;
     width: 375px;
@@ -46,23 +52,29 @@ h2,
 }
 
 .info {
-    margin-top: -12px;
+    margin-top: 15px;
     font-size: 28px;
     font-weight: 700;
     display: inline-block;
     width: 12%;
-    margin-left: 3%;
+    margin-left: -7%;
 }
 
 .sec-info {
     font-weight: 600;
     display: inline-block;
     width: 51%;
-    margin-left: 5%;
+    margin-left: -6%;
 }
 
 .stop {
-    height: 1px;
+    height: 10px;
+}
+
+.direction {
+    font-size: 12px;
+    font-weight: 400; 
+    margin-top: 10px;
 }
 
 .num-min {
@@ -70,9 +82,20 @@ h2,
     /* width: 26%; */
     /* margin-right: 0; */
     text-align: right;
+    margin-top: -70px;
+    margin-right: 4%;
+}
+
+.num-min-no {
+    /* display: inline-block; */
+    /* width: 26%; */
+    /* margin-right: 0; */
+    text-align: right;
     margin-top: -60px;
     margin-right: 4%;
 }
+
+
 
 .blank {
     color: white;
@@ -108,9 +131,11 @@ h2,
     display: inline;
 }
 
-.direction {
-    font-size: 12px;
-    font-weight: 400; 
+.upnext {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-right: 0;
 }
 
 .dash {
@@ -142,10 +167,10 @@ h2,
     margin: auto;
 }
 
+
 #top {
     margin-left: 12.5px;
 }
-
 /* ----------- Icon ------------*/
 
 .fa-chevron-left {
@@ -154,5 +179,5 @@ h2,
 }
 
 .fa-rss {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
