@@ -1,3 +1,10 @@
+/* -------------- Tags ---------------*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
     background-color: #202020;
     color: 3b3b3b;
@@ -8,22 +15,126 @@ h2 {
     font-size: 20px;
 }
 
-hr {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
 ul {
     list-style: none;
-    margin-top: 10px;
 }
+
+/* ------------- Top ------------- */
 
 #phone-screen {
     background-color: #6100b6;
     width: 375px;
-    height: 827px;
+    height: 829px;
     margin: auto;
+}
+
+#top {
+    margin-left: 12.5px;
+    padding-top: 20px;
+}
+
+.cta {
+    display: inline-block;
+}
+
+.bus-stop {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/*--------------- Next ----------------*/
+
+.nx-tx {
+    margin-left: 12.5px;
+}
+
+.next {
+    margin-top: 30px;
+}
+
+.next-card {
+    width: 350px;
+    height: 543px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.single {
+    height: 59px;
+    border-bottom: #3b3b3b solid 1px;
+}
+
+.single:last-of-type{
+    border-bottom: none;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    display: inline-block;
+    width: 12%;
+    margin-left: 4%;
+}
+
+.sec-info {
+    font-weight: 600;
+    display: inline-block;
+    width: 51%;
+    margin-left: 5%;
+}
+
+.stop {
+    height: 10px;
+}
+
+.direction {
+    font-size: 12px;
+    font-weight: 400; 
+    margin-top: 10px;
+}
+
+.num-min {
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 4%;
+}
+
+.upnext {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-right: 0;
+}
+
+.num-min-no {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 4%;
+}
+
+.number,
+.time {
+    /* display: inline; */
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* ------- scheduled card ---------- */
+
+.space {
+    margin-top: 30px;
+}
+
+.scheduled-card {
+    width: 350px;
+    height: 119px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+    margin-top:15px;
 }
 
 h2,
@@ -39,63 +150,18 @@ h2,
     font-size: 15px;
 }
 
-.nx-tx {
-    margin-left: 12.5px;
-}
-
-.space {
-    margin-top: 30px;
-}
-
-.single {
-    height: 59px;
-}
-
-.info {
-    margin-top: 15px;
-    font-size: 28px;
-    font-weight: 700;
-    display: inline-block;
-    width: 12%;
-    margin-left: -7%;
-}
-
-.sec-info {
-    font-weight: 600;
-    display: inline-block;
-    width: 51%;
-    margin-left: -6%;
-}
-
-.stop {
-    height: 10px;
-}
-
-.direction {
+.min,
+.day-period {
     font-size: 12px;
-    font-weight: 400; 
-    margin-top: 10px;
+    font-weight: 400;
+    display: inline;
 }
 
-.num-min {
-    /* display: inline-block; */
-    /* width: 26%; */
-    /* margin-right: 0; */
-    text-align: right;
-    margin-top: -70px;
-    margin-right: 4%;
+.dash {
+    margin-right: 8%;
 }
 
-.num-min-no {
-    /* display: inline-block; */
-    /* width: 26%; */
-    /* margin-right: 0; */
-    text-align: right;
-    margin-top: -60px;
-    margin-right: 4%;
-}
-
-
+/* --------------- Colors --------------- */
 
 .blank {
     color: white;
@@ -117,60 +183,6 @@ h2,
     color: #c0c0c0;
 }
 
-.number,
-.time {
-    display: inline;
-    font-size: 26px;
-    font-weight: 700;
-}
-
-.min,
-.day-period {
-    font-size: 12px;
-    font-weight: 400;
-    display: inline;
-}
-
-.upnext {
-    font-size: 10px;
-    font-weight: 400;
-    margin-top: 3px;
-    margin-right: 0;
-}
-
-.dash {
-    margin-right: 5%;
-}
-
-.cta {
-    display: inline-block;
-}
-
-.bus-stop {
-    display: inline-block;
-    margin-left: 30px;
-}
-
-.next-card {
-    width: 350px;
-    height: 543px;
-    background-color: white;
-    border-radius: 10px;
-    margin: auto;
-}
-
-.scheduled-card {
-    width: 350px;
-    height: 119px;
-    background-color: white;
-    border-radius: 10px 10px 0 0;
-    margin: auto;
-}
-
-
-#top {
-    margin-left: 12.5px;
-}
 /* ----------- Icon ------------*/
 
 .fa-chevron-left {
